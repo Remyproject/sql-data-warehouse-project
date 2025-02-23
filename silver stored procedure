@@ -1,15 +1,22 @@
 /*
-==============================================================================================================
-DDL script : Craete Silver Tables
+===============================================================
+Stored Procedure: Load Silver Layer (Bronze -> Silver)
+===============================================================
+Script Purpose:
+	This stored procedure performs the ETL (Extract, Transform, Load) process to the populated the 'Silver' schema tables from the 'bronze' schema.
 
-==============================================================================================================
-Script purpose:
-  This script creates the tables in the bronze schema, dropping existing tables
-  if they already exist.
-  Run this script to re define the DDL structure of 'silver' Tables
-==============================================================================================================  
+Actions performed:
+	-Truncate silver tables.
+	- Insert transformed and cleaned data from the bronze into silver tables
+
+Parameters:
+	none.
+	This stored procedure does not accept any parameters or return any values.
+
+Usage example:
+	EXEC silver.load_silver
+=============================================================
 */
-
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
