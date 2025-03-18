@@ -4,6 +4,7 @@
 
 This project focuses on designing and implementing a **scalable Data Warehouse** using the **Medallion Architecture (Bronze, Silver, Gold Layers)** to process and transform raw data into business-ready insights. The entire ETL (Extract, Transform, Load) pipeline was developed from scratch, ensuring data quality, integrity, and usability. Additionally, I used the **Star Schema Model** to structure the analytical data efficiently for reporting and business intelligence.
 
+
 ## **Project Goals**
 
 - Build a structured Data Warehouse from **raw source data** to **business-ready data**.
@@ -11,6 +12,7 @@ This project focuses on designing and implementing a **scalable Data Warehouse**
 - Ensure **data quality, deduplication, and standardization** at different stages.
 - Utilize **Medallion Architecture** for efficient data processing.
 - Design an optimized **Star Schema** for analytical queries and reporting.
+ 
 
 ---
 
@@ -22,6 +24,8 @@ This project focuses on designing and implementing a **scalable Data Warehouse**
 - Followed the **Medallion Architecture**, splitting data into **Bronze, Silver, and Gold layers**.
 - Selected appropriate **data sources** such as CRM and ERP systems.
 - Chose a **relational database (SQL-based) for the warehouse** to store structured data.
+
+ <img width="606" alt="highlever" src="https://github.com/user-attachments/assets/3942b86e-7470-4d60-b457-f1c6b59e5106" /> 
 
 ### **2. Project Initialization**
 
@@ -65,6 +69,7 @@ This project focuses on designing and implementing a **scalable Data Warehouse**
 - Improved **data consistency, accuracy, and usability** across layers.
 - Established a structured **ETL pipeline** that ensures efficient data processing.
 - Implemented **best practices** in data warehousing for high performance.
+![Integration model](https://github.com/user-attachments/assets/c53d1ec8-4e64-41fa-8f41-1a1d3d43625c)
 
 ---
 
@@ -74,6 +79,7 @@ This project focuses on designing and implementing a **scalable Data Warehouse**
 - **ETL Tools**: SQL scripts for transformation
 - **Data Modeling**: Star Schema
 - **BI & Reporting**: Power BI
+![data model](https://github.com/user-attachments/assets/808b92ce-0583-4d02-b242-2ce7a081de0a)
 
 ---
 
